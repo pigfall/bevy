@@ -37,7 +37,7 @@ impl PluginGroup for AndroidDefaultPlugin {
         // #[cfg(feature = "bevy_gltf")]
         // group.add(bevy_gltf::GltfPlugin::default());
 
-        #[cfg(feature = "bevy_wgpu")]
-        group.add(bevy_wgpu::WgpuPlugin::default());
+        //#[cfg(feature = "bevy_wgpu")]
+        //group.add(bevy_wgpu::WgpuPlugin::default());
     }
 }
