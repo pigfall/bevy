@@ -2,6 +2,7 @@ pub use crate::{
     app::prelude::*, asset::prelude::*, core::prelude::*, ecs::prelude::*, input::prelude::*,
     log::prelude::*, math::prelude::*, reflect::prelude::*, scene::prelude::*,
     transform::prelude::*, window::prelude::*, DefaultPlugins, MinimalPlugins,
+    AndroidDefaultPlugin,
 };
 
 pub use bevy_derive::bevy_main;

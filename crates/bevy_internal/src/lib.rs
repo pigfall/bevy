@@ -4,6 +4,9 @@ pub mod prelude;
 mod default_plugins;
 pub use default_plugins::*;
 
+mod default_plugins_android;
+pub use default_plugins_android::*;
+
 pub mod app {
     //! Build bevy apps, create plugins, and read events.
     pub use bevy_app::*;
